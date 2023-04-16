@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Unsplash Images</title>
-	<link rel="stylesheet" href="style.css">
+    <title>Unsplash Image Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<div class="container">
-		<h1>Unsplash Images</h1>
-		<input type="text" placeholder="Enter image category" id="search">
-		<button onclick="getImages()">Search</button>
-		<div class="gallery"></div>
+    <div class="search">
+        <h1 id="cent">Unsplash Images</h1>
+		<Enter for="category" >Enter category:</label>
+		<input type="text" id="category" name="category" placeholder="eg.Home,Cat,Table,etc">
+		<button id="searchBtn">Search</button>
 	</div>
-	<script src="script.js"></script>
+	<div class="container" id="gallery"></div>
+    <script src="app.js"></script>
 </body>
 </html>
